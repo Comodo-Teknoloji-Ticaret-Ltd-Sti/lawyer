@@ -28,31 +28,31 @@ const CardItem = ({ src, text, label, path, description }) => {
 function Cards() {
   const cardData = [
     {
-      src: 'images/practices.jpg',
+      src: './images/practices.jpg',
       text: 'Explore comprehensive legal solutions tailored to your needs',
       label: 'Services',
-      path: '/services',
+      path: '#/services',
       description: 'Professional Legal Services'
     },
     {
-      src: 'images/careers.jpg',
+      src: './images/careers.jpg',
       text: 'Join our dynamic team and build your legal career',
       label: 'Career',
-      path: '/career',
+      path: '#/career',
       description: 'Growth Opportunities'
     },
     {
-      src: 'images/contact.jpg',
+      src: './images/contact.jpg',
       text: 'Get in touch with our expert legal team',
       label: 'Contact',
-      path: '/contact',
+      path: '#/contact',
       description: '24/7 Support Available'
     },
     {
-      src: 'images/about.jpg',
+      src: './images/about.jpg',
       text: 'Learn about our history and commitment to excellence',
       label: 'About',
-      path: '/about',
+      path: '#/about',
       description: 'Our Story & Values'
     }
   ];
