@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.39b4d09c.css",
-    "main.js": "./static/js/main.0b62109c.js",
+    "main.css": "./static/css/main.e5bdfb31.css",
+    "main.js": "./static/js/main.d9a117cc.js",
+    "static/media/mahkeme.jpg": "./static/media/mahkeme.5a79fe2a8b0221e65e6b.jpg",
     "index.html": "./index.html",
-    "main.39b4d09c.css.map": "./static/css/main.39b4d09c.css.map",
-    "main.0b62109c.js.map": "./static/js/main.0b62109c.js.map"
+    "main.e5bdfb31.css.map": "./static/css/main.e5bdfb31.css.map",
+    "main.d9a117cc.js.map": "./static/js/main.d9a117cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.39b4d09c.css",
-    "static/js/main.0b62109c.js"
+    "static/css/main.e5bdfb31.css",
+    "static/js/main.d9a117cc.js"
   ]
 }
