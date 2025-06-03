@@ -1,31 +1,18 @@
 import React from 'react';
 import '../../App.css';
-import { Button } from '../Button/button';
 import './HeroSection.css';
-// import { GoPlay } from 'react-icons/go';
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='./videos/buildings.mp4' autoPlay loop muted />
-      <h1>Frenzel Law</h1>
-      <p className='small-title'>Established 2010</p>
-      <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          About
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-        >
-          Contact 
-          {/* <span><GoPlay /></span> */}
-        </Button>
+      <div className='background-image'></div>
+      <div className='hero-content'>
+        <img src='./images/adam1.png' alt='Avukat Sol' className='lawyer-image left' />
+        <div className='hero-text'>
+          <h1>Güven & Tecrübe</h1>
+          <p className='small-title'>Hukuki Çözüm Ortağınız</p>
+        </div>
+        <img src='./images/adam1.png' alt='Avukat Sağ' className='lawyer-image right' />
       </div>
     </div>
   );
